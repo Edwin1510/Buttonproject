@@ -1,0 +1,137 @@
+/* App.css */
+.showmargin {
+  margin: 50px; /* Adjust the margin as needed */
+  background-color: rgb(224, 231, 231);
+  align-items: center;
+}
+
+.showmargin img {
+  width: 50px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.showmargin button{
+  border:none;
+  background-color: rgb(36, 160, 237);
+  padding: 8px;
+  
+  color:white;
+}
+
+.deletecursor{
+  cursor: pointer;
+}
+
+.main{
+  border:1px solid rgb(36, 160, 237);
+  width:800px;
+  margin-top:40px;
+
+}
+
+.fontsize{
+  font-size: 25px;
+}
+
+.fontsizewindow{
+  font-size: 30px;
+}
+
+.clkbutton{
+  cursor:pointer;
+  font-size: 25px;
+  text-align: center;
+  color:blue;
+  font-size: 15px;
+  
+}
+
+.container {
+  max-width: 600px;
+  position: absolute; 
+  top:50px; 
+  left: 250px; 
+  
+  
+}
+
+.formmain {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.Nextbutton{
+  position:absolute;
+  right:300px;
+  border:none;
+  background-color: rgb(241, 147, 23);
+  padding:10px;
+ border-radius: 15px;
+ color:white;
+ font-size:10px;
+}
+.mainnearbox1{
+  position:absolute;
+  top:11px;
+  border:none;
+  background-color: #007bff;
+  left:280px;
+  color:white;
+}
+.mainnearbox2{
+  position:absolute;
+  top:11px;
+  border:none;
+  background-color: #007bff;
+  left:955px;
+  color:white;
+}
+
+
+
+.lastbutton{
+  border: none;
+  background-color: #ee790c;
+  border-radius: 20px;
+  padding: 5px;
+  margin:30px;
+  right:600px;
+  position:absolute;
+  color:white;
+}
+.par{
+  color:#c8ccd1;
+  font-size: 10px;
+}
